@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OOP_Concept.Classes_Objects;
 
 namespace OOP_Concept
 {
@@ -10,7 +6,8 @@ namespace OOP_Concept
     {
         static void Main(string[] args)
         {
-            
+           
+
         }
     }
 }

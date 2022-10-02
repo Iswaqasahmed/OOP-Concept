@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOP_Concept.Classes_Objects.ComplexNumber</StartupObject>
+    <StartupObject>OOP_Concept.Classes_Objects.OperatorOverLoading</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes_Objects\ComplexClass.cs" />
+    <Compile Include="Classes_Objects\OperatorOverLoading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

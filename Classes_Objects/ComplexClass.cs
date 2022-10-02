@@ -80,6 +80,8 @@ namespace OOP_Concept.Classes_Objects
     {
         static void Main(string[] args)
         {
+            
+            // Logic - 01
             ComplexClass c1, c2, c3;
             c1 = new ComplexClass();
             c1.SetData(2, 3);
@@ -88,7 +90,26 @@ namespace OOP_Concept.Classes_Objects
             c3 = c1.AddComplex(c2);
             Console.WriteLine("Complex C3");
             c3.DisplayData();
-            
+
+
+            // Logic - 02
+            ComplexClass c4, c5, c6;
+            c4 = new ComplexClass();
+            c4.GetData();
+            c5 = new ComplexClass();
+            c6 = new ComplexClass();
+            c6 = c4.MulComplex(c5);
+            Console.WriteLine("Complex  C6");
+            c6.DisplayData();
+
+            //Logic - 03
+            ComplexClass c7;
+            c7 = new ComplexClass();
+            c7 = c1.AddComplex(c2.MulComplex(c3));
+            Console.WriteLine("Complex C7");
+            c7.DisplayData();
+
+
 
         }
     }
