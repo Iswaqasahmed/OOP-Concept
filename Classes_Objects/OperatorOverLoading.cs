@@ -56,13 +56,13 @@ namespace OOP_Concept.Classes_Objects
             temp.image = x.image * y.image;
             return temp;
         }
-        public static OperatorOverLoading operator >=(OperatorOverLoading x, OperatorOverLoading y)
-        {
-            OperatorOverLoading temp = new OperatorOverLoading();
-            temp.real = x.real * y.real;
-            temp.image = x.image * y.image;
-            return temp;
-        }
+        //public static OperatorOverLoading operator >(OperatorOverLoading x, OperatorOverLoading y)
+        //{
+        //    OperatorOverLoading temp = new OperatorOverLoading();
+        //    temp.real = x.real * y.real;
+        //    temp.image = x.image * y.image;
+        //    return temp;
+        //}
 
         public static void Main()
         {
